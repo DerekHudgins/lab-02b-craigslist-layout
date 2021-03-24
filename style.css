@@ -1,0 +1,25 @@
+main {
+    display: grid;
+    height: 1000px;
+    max-width: 900px;
+    margin: auto;
+    background: lightslategray;
+    grid-template-columns: 150px 1fr 100px;
+}
+.sidebar {
+    background-color: lightblue;
+}
+.content {
+    background-color: lightgreen;
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+.location {
+    background-color: lightyellow;
+    display: grid;
+    
+}
+header {
+    background: white;
+
+}
